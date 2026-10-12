@@ -1,6 +1,12 @@
 name: Record Argentina Options Data
 
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/record_options.yml'
+      - 'recorder_byma_intraday.py'
+      - 'recorder_iamc_daily.py'
   schedule:
     # 1) Intradia BYMA: Cada 15 min de Lunes a Viernes entre 11:00 y 17:00 ART (14:00 a 20:00 UTC)
     - cron: '*/15 14-20 * * 1-5'
