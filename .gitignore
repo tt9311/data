@@ -1,0 +1,52 @@
+# macOS / Python / Editor
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.agents/
+
+# Raw PDFs (15MB+ each — only parsed CSV/JSON are versioned in data/daily/)
+*.pdf
+informes_pdf/
+data/daily/pdf/
+
+# Research & backtest archive folder (keep local, exclude from git)
+archive_research/
+
+# Large tick / OPRA / research datasets & backtest artifacts in root
+/OPRA-*/
+/options_*.csv
+/backtest_*.csv
+/*_options-overview-history-*.csv
+/opciones_argentina_*.csv
+/opciones_argentina_*.json
+/opciones_argentina_*.xlsx
+data/adr_history/
+data/underlying_history/
+
+# Always track automated recorder outputs in data/daily/ and data/intraday/
+!data/daily/*.csv
+!data/daily/*.json
+!data/intraday/*.csv
+!data/intraday/*.json
+!data/intraday/.gitkeep
+
+# Research & backtest scripts in root
+/audit_*.py
+/backtest_*.py
+/benchmark_*.py
+/deep_optimize_*.py
+/download_*.py
+/fetch_*.py
+/fix_*.py
+/model_*.py
+/optimize_*.py
+/process_*.py
+/run_full_audit_*.py
+/stress_*.py
+/test_*.py
+/REFERENCE.md
+/RESUMEN_MAESTRO_INVESTIGACION_BS_AR.md

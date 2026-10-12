@@ -1,0 +1,54 @@
+name: Record Argentina Options Data
+
+on:
+  schedule:
+    # 1) Intradia BYMA: Cada 15 min de Lunes a Viernes entre 11:00 y 17:00 ART (14:00 a 20:00 UTC)
+    - cron: '*/15 14-20 * * 1-5'
+    # 2) Cierre diario IAMC: Lunes a Viernes a las 19:30 ART (22:30 UTC)
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch: # Permite ejecutar manualmente cuando quieras con 1 click
+
+concurrency:
+  group: record-options-data
+  cancel-in-progress: false
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests urllib3 pandas pypdf openpyxl
+
+      - name: Record Intraday BYMA (durante la rueda)
+        continue-on-error: true
+        run: |
+          python recorder_byma_intraday.py
+
+      - name: Record Daily IAMC (cierre de rueda)
+        continue-on-error: true
+        run: |
+          python recorder_iamc_daily.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/intraday/ data/daily/*.csv data/daily/*.json 2>/dev/null || git add data/intraday/ data/daily/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update options data [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          fi
