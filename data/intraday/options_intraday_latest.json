@@ -1,6 +1,6 @@
 [
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC1000DI",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -41,7 +41,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC1000OC",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -82,7 +82,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC1100DI",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -123,7 +123,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC1100OC",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -164,7 +164,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC700.DI",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -205,7 +205,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC700.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -246,7 +246,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC850.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -287,7 +287,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC900.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -328,7 +328,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUC950.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"CALL",
@@ -369,7 +369,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV1000OC",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -410,7 +410,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV800.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -451,7 +451,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV850.DI",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -492,7 +492,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV850.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -533,7 +533,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV900.DI",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -574,7 +574,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV900.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -615,7 +615,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"ALUV950.OC",
     "underlyingSymbol":"ALUA",
     "optionType":"PUT",
@@ -656,7 +656,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAC9400OC",
     "underlyingSymbol":"BBAR",
     "optionType":"CALL",
@@ -697,7 +697,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV6600DI",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -738,7 +738,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV6600OC",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -779,7 +779,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV7000OC",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -820,7 +820,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV7400OC",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -861,7 +861,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV7800OC",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -902,7 +902,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV8200OC",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -943,7 +943,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BBAV8600OC",
     "underlyingSymbol":"BBAR",
     "optionType":"PUT",
@@ -984,7 +984,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC260.DI",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1025,7 +1025,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC300.DI",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1066,7 +1066,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC300.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1107,7 +1107,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC320.DI",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1148,7 +1148,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC320.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1189,7 +1189,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC340.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1230,7 +1230,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC360.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1271,7 +1271,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC380.DI",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1312,7 +1312,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC380.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1353,7 +1353,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC400.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1394,7 +1394,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIC420.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"CALL",
@@ -1435,7 +1435,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIV300.DI",
     "underlyingSymbol":"BHIP",
     "optionType":"PUT",
@@ -1476,7 +1476,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIV300.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"PUT",
@@ -1517,7 +1517,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIV320.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"PUT",
@@ -1558,7 +1558,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BHIV340.OC",
     "underlyingSymbol":"BHIP",
     "optionType":"PUT",
@@ -1599,7 +1599,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAC12800O",
     "underlyingSymbol":"BMA",
     "optionType":"CALL",
@@ -1640,7 +1640,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAC13200O",
     "underlyingSymbol":"BMA",
     "optionType":"CALL",
@@ -1681,7 +1681,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAC13600O",
     "underlyingSymbol":"BMA",
     "optionType":"CALL",
@@ -1722,7 +1722,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAV10000O",
     "underlyingSymbol":"BMA",
     "optionType":"PUT",
@@ -1763,7 +1763,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAV10400O",
     "underlyingSymbol":"BMA",
     "optionType":"PUT",
@@ -1804,7 +1804,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAV10800O",
     "underlyingSymbol":"BMA",
     "optionType":"PUT",
@@ -1845,7 +1845,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAV11200O",
     "underlyingSymbol":"BMA",
     "optionType":"PUT",
@@ -1886,7 +1886,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAV11600O",
     "underlyingSymbol":"BMA",
     "optionType":"PUT",
@@ -1927,7 +1927,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BMAV12000O",
     "underlyingSymbol":"BMA",
     "optionType":"PUT",
@@ -1968,7 +1968,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC250.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2009,7 +2009,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC260.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2050,7 +2050,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC280.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2091,7 +2091,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC290.DI",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2132,7 +2132,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC300.DI",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2173,7 +2173,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC300.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2214,7 +2214,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC310.DI",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2255,7 +2255,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC310.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2296,7 +2296,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMC320.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"CALL",
@@ -2337,7 +2337,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV220.DI",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2378,7 +2378,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV230.DI",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2419,7 +2419,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV250.DI",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2460,7 +2460,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV280.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2501,7 +2501,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV290.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2542,7 +2542,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV300.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2583,7 +2583,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"BYMV310.OC",
     "underlyingSymbol":"BYMA",
     "optionType":"PUT",
@@ -2624,7 +2624,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECC500.DI",
     "underlyingSymbol":"CECO2",
     "optionType":"CALL",
@@ -2665,7 +2665,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECC500.OC",
     "underlyingSymbol":"CECO2",
     "optionType":"CALL",
@@ -2706,7 +2706,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV360.OC",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2747,7 +2747,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV380.OC",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2788,7 +2788,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV400.DI",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2829,7 +2829,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV460.DI",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2870,7 +2870,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV480.DI",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2911,7 +2911,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV480.OC",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2952,7 +2952,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV500.DI",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -2993,7 +2993,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CECV500.OC",
     "underlyingSymbol":"CECO2",
     "optionType":"PUT",
@@ -3034,7 +3034,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPC2136DI",
     "underlyingSymbol":"CEPU",
     "optionType":"CALL",
@@ -3075,7 +3075,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPC2136OC",
     "underlyingSymbol":"CEPU",
     "optionType":"CALL",
@@ -3116,7 +3116,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPC2236OC",
     "underlyingSymbol":"CEPU",
     "optionType":"CALL",
@@ -3157,7 +3157,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPC2336OC",
     "underlyingSymbol":"CEPU",
     "optionType":"CALL",
@@ -3198,7 +3198,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPV1800DI",
     "underlyingSymbol":"CEPU",
     "optionType":"PUT",
@@ -3239,7 +3239,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPV2036DI",
     "underlyingSymbol":"CEPU",
     "optionType":"PUT",
@@ -3280,7 +3280,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CEPV2136DI",
     "underlyingSymbol":"CEPU",
     "optionType":"PUT",
@@ -3321,7 +3321,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC27.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3362,7 +3362,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC29.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3403,7 +3403,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC31.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3444,7 +3444,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC33.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3485,7 +3485,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC33.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3526,7 +3526,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC35.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3567,7 +3567,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC37.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3608,7 +3608,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC37.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3649,7 +3649,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC39.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3690,7 +3690,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC39.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3731,7 +3731,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC41.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3772,7 +3772,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC41.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3813,7 +3813,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC43.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3854,7 +3854,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC43.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3895,7 +3895,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC45.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3936,7 +3936,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC45.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -3977,7 +3977,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC47.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4018,7 +4018,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC47.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4059,7 +4059,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC49.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4100,7 +4100,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC51.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4141,7 +4141,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC51.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4182,7 +4182,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC53.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4223,7 +4223,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC55.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4264,7 +4264,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC57.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4305,7 +4305,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC59.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4346,7 +4346,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC61.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4387,7 +4387,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC61.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4428,7 +4428,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC71.0DI",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4469,7 +4469,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMC71.0OC",
     "underlyingSymbol":"COME",
     "optionType":"CALL",
@@ -4510,7 +4510,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV35.0DI",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4551,7 +4551,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV37.0DI",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4592,7 +4592,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV37.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4633,7 +4633,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV39.0DI",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4674,7 +4674,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV39.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4715,7 +4715,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV41.0DI",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4756,7 +4756,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV41.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4797,7 +4797,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV43.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4838,7 +4838,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV45.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4879,7 +4879,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV53.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4920,7 +4920,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"COMV71.0OC",
     "underlyingSymbol":"COME",
     "optionType":"PUT",
@@ -4961,7 +4961,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREC1800OC",
     "underlyingSymbol":"CRES",
     "optionType":"CALL",
@@ -5002,7 +5002,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREC1900DI",
     "underlyingSymbol":"CRES",
     "optionType":"CALL",
@@ -5043,7 +5043,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREC1900OC",
     "underlyingSymbol":"CRES",
     "optionType":"CALL",
@@ -5084,7 +5084,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREV1600DI",
     "underlyingSymbol":"CRES",
     "optionType":"PUT",
@@ -5125,7 +5125,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREV1600OC",
     "underlyingSymbol":"CRES",
     "optionType":"PUT",
@@ -5166,7 +5166,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREV1700DI",
     "underlyingSymbol":"CRES",
     "optionType":"PUT",
@@ -5207,7 +5207,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREV1700OC",
     "underlyingSymbol":"CRES",
     "optionType":"PUT",
@@ -5248,7 +5248,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREV1900DI",
     "underlyingSymbol":"CRES",
     "optionType":"PUT",
@@ -5289,7 +5289,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"CREV1900OC",
     "underlyingSymbol":"CRES",
     "optionType":"PUT",
@@ -5330,7 +5330,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC1800DI",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5371,7 +5371,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC1800OC",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5412,7 +5412,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC1900OC",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5453,7 +5453,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2000OC",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5494,7 +5494,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2100DI",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5535,7 +5535,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2100OC",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5576,7 +5576,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2200OC",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5617,7 +5617,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2400DI",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5658,7 +5658,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2500DI",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5699,7 +5699,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2500OC",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5740,7 +5740,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNC2600DI",
     "underlyingSymbol":"EDN",
     "optionType":"CALL",
@@ -5781,7 +5781,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1500DI",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -5822,7 +5822,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1500OC",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -5863,7 +5863,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1600OC",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -5904,7 +5904,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1700DI",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -5945,7 +5945,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1700OC",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -5986,7 +5986,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1800DI",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -6027,7 +6027,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1900DI",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -6068,7 +6068,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV1900OC",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -6109,7 +6109,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV2000OC",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -6150,7 +6150,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"EDNV2100OC",
     "underlyingSymbol":"EDN",
     "optionType":"PUT",
@@ -6191,7 +6191,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC10300D",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6232,7 +6232,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC10300O",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6273,7 +6273,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC10700O",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6314,7 +6314,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC11100O",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6355,7 +6355,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC4200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6396,7 +6396,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC4400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6437,7 +6437,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC4600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6478,7 +6478,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC4600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6519,7 +6519,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC4800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6560,7 +6560,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6601,7 +6601,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6642,7 +6642,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6683,7 +6683,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6724,7 +6724,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6765,7 +6765,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6806,7 +6806,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC5800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6847,7 +6847,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6888,7 +6888,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6929,7 +6929,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -6970,7 +6970,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7011,7 +7011,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6400DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7052,7 +7052,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7093,7 +7093,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7134,7 +7134,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7175,7 +7175,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7216,7 +7216,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC6800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7257,7 +7257,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7298,7 +7298,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7339,7 +7339,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7380,7 +7380,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7421,7 +7421,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7400DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7462,7 +7462,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7503,7 +7503,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7544,7 +7544,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7585,7 +7585,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7626,7 +7626,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC7800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7667,7 +7667,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7708,7 +7708,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7749,7 +7749,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8300DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7790,7 +7790,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8300OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7831,7 +7831,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7872,7 +7872,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7913,7 +7913,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8900DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7954,7 +7954,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC8900OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -7995,7 +7995,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC9200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -8036,7 +8036,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC9200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -8077,7 +8077,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC9500DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -8118,7 +8118,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC9500OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -8159,7 +8159,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC9900DI",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -8200,7 +8200,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGC9900OC",
     "underlyingSymbol":"GGAL",
     "optionType":"CALL",
@@ -8241,7 +8241,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV11100O",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8282,7 +8282,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8323,7 +8323,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8364,7 +8364,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4400DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8405,7 +8405,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8446,7 +8446,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8487,7 +8487,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8528,7 +8528,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8569,7 +8569,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV4800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8610,7 +8610,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8651,7 +8651,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8692,7 +8692,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8733,7 +8733,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8774,7 +8774,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5400DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8815,7 +8815,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8856,7 +8856,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8897,7 +8897,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8938,7 +8938,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -8979,7 +8979,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV5800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9020,7 +9020,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9061,7 +9061,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9102,7 +9102,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9143,7 +9143,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9184,7 +9184,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6400DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9225,7 +9225,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9266,7 +9266,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9307,7 +9307,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9348,7 +9348,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9389,7 +9389,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV6800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9430,7 +9430,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9471,7 +9471,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9512,7 +9512,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7200DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9553,7 +9553,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9594,7 +9594,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7400DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9635,7 +9635,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7400OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9676,7 +9676,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7600DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9717,7 +9717,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9758,7 +9758,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7800DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9799,7 +9799,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV7800OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9840,7 +9840,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV8000DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9881,7 +9881,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV8000OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9922,7 +9922,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV8300DI",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -9963,7 +9963,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV8300OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -10004,7 +10004,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV8600OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -10045,7 +10045,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV8900OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -10086,7 +10086,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"GFGV9200OC",
     "underlyingSymbol":"GGAL",
     "optionType":"PUT",
@@ -10127,7 +10127,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMC3200OC",
     "underlyingSymbol":"LOMA",
     "optionType":"CALL",
@@ -10168,7 +10168,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMC3400OC",
     "underlyingSymbol":"LOMA",
     "optionType":"CALL",
@@ -10209,7 +10209,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMC3600OC",
     "underlyingSymbol":"LOMA",
     "optionType":"CALL",
@@ -10250,7 +10250,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMC3800OC",
     "underlyingSymbol":"LOMA",
     "optionType":"CALL",
@@ -10291,7 +10291,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMV2600DI",
     "underlyingSymbol":"LOMA",
     "optionType":"PUT",
@@ -10332,7 +10332,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMV2600OC",
     "underlyingSymbol":"LOMA",
     "optionType":"PUT",
@@ -10373,7 +10373,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMV2800OC",
     "underlyingSymbol":"LOMA",
     "optionType":"PUT",
@@ -10414,7 +10414,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"LOMV3600OC",
     "underlyingSymbol":"LOMA",
     "optionType":"PUT",
@@ -10455,7 +10455,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC1500OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10496,7 +10496,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC1600OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10537,7 +10537,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC1700OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10578,7 +10578,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC1800OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10619,7 +10619,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2000OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10660,7 +10660,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2100OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10701,7 +10701,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2200OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10742,7 +10742,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2300OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10783,7 +10783,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2400DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10824,7 +10824,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2400OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10865,7 +10865,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2500DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10906,7 +10906,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2500OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10947,7 +10947,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2600DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -10988,7 +10988,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2600OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11029,7 +11029,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2700DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11070,7 +11070,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2700OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11111,7 +11111,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2800DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11152,7 +11152,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2800OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11193,7 +11193,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC2900OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11234,7 +11234,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC3000DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11275,7 +11275,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC3000OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11316,7 +11316,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC3100DI",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11357,7 +11357,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METC3100OC",
     "underlyingSymbol":"METR",
     "optionType":"CALL",
@@ -11398,7 +11398,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV1500OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11439,7 +11439,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV1600DI",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11480,7 +11480,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV1800OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11521,7 +11521,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV1900DI",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11562,7 +11562,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV1900OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11603,7 +11603,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2000OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11644,7 +11644,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2100OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11685,7 +11685,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2200DI",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11726,7 +11726,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2200OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11767,7 +11767,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2300OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11808,7 +11808,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2400DI",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11849,7 +11849,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2400OC",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11890,7 +11890,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"METV2500DI",
     "underlyingSymbol":"METR",
     "optionType":"PUT",
@@ -11931,7 +11931,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC3500OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -11972,7 +11972,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC3700OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12013,7 +12013,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC3900OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12054,7 +12054,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC4100DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12095,7 +12095,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC4100OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12136,7 +12136,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC4300OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12177,7 +12177,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC4500OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12218,7 +12218,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC4700DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12259,7 +12259,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC4700OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12300,7 +12300,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5000DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12341,7 +12341,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5000OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12382,7 +12382,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5300DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12423,7 +12423,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5300OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12464,7 +12464,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5600DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12505,7 +12505,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5600OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12546,7 +12546,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5900DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12587,7 +12587,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC5900OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12628,7 +12628,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC6200DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12669,7 +12669,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC6200OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12710,7 +12710,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC6500DI",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12751,7 +12751,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMC6500OC",
     "underlyingSymbol":"PAMP",
     "optionType":"CALL",
@@ -12792,7 +12792,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV4700OC",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -12833,7 +12833,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5000DI",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -12874,7 +12874,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5000OC",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -12915,7 +12915,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5300DI",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -12956,7 +12956,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5300OC",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -12997,7 +12997,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5600DI",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -13038,7 +13038,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5600OC",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -13079,7 +13079,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"PAMV5900OC",
     "underlyingSymbol":"PAMP",
     "optionType":"PUT",
@@ -13120,7 +13120,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPC2400OC",
     "underlyingSymbol":"SUPV",
     "optionType":"CALL",
@@ -13161,7 +13161,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPC2600OC",
     "underlyingSymbol":"SUPV",
     "optionType":"CALL",
@@ -13202,7 +13202,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPC2800OC",
     "underlyingSymbol":"SUPV",
     "optionType":"CALL",
@@ -13243,7 +13243,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPC3000OC",
     "underlyingSymbol":"SUPV",
     "optionType":"CALL",
@@ -13284,7 +13284,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPC3200OC",
     "underlyingSymbol":"SUPV",
     "optionType":"CALL",
@@ -13325,7 +13325,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPV2000DI",
     "underlyingSymbol":"SUPV",
     "optionType":"PUT",
@@ -13366,7 +13366,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPV2200DI",
     "underlyingSymbol":"SUPV",
     "optionType":"PUT",
@@ -13407,7 +13407,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPV2200OC",
     "underlyingSymbol":"SUPV",
     "optionType":"PUT",
@@ -13448,7 +13448,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPV2400DI",
     "underlyingSymbol":"SUPV",
     "optionType":"PUT",
@@ -13489,7 +13489,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"SUPV2600OC",
     "underlyingSymbol":"SUPV",
     "optionType":"PUT",
@@ -13530,7 +13530,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECC4000OC",
     "underlyingSymbol":"TECO2",
     "optionType":"CALL",
@@ -13571,7 +13571,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECC4200OC",
     "underlyingSymbol":"TECO2",
     "optionType":"CALL",
@@ -13612,7 +13612,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECC4400OC",
     "underlyingSymbol":"TECO2",
     "optionType":"CALL",
@@ -13653,7 +13653,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECV3200DI",
     "underlyingSymbol":"TECO2",
     "optionType":"PUT",
@@ -13694,7 +13694,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECV3200OC",
     "underlyingSymbol":"TECO2",
     "optionType":"PUT",
@@ -13735,7 +13735,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECV3400OC",
     "underlyingSymbol":"TECO2",
     "optionType":"PUT",
@@ -13776,7 +13776,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECV3600DI",
     "underlyingSymbol":"TECO2",
     "optionType":"PUT",
@@ -13817,7 +13817,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECV3600OC",
     "underlyingSymbol":"TECO2",
     "optionType":"PUT",
@@ -13858,7 +13858,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TECV3800DI",
     "underlyingSymbol":"TECO2",
     "optionType":"PUT",
@@ -13899,7 +13899,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC3400DI",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -13940,7 +13940,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC3400OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -13981,7 +13981,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC3600OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -14022,7 +14022,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC3800DI",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -14063,7 +14063,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC3800OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -14104,7 +14104,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC4000DI",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -14145,7 +14145,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC4000OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -14186,7 +14186,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNC4400OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"CALL",
@@ -14227,7 +14227,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNV3400DI",
     "underlyingSymbol":"TGNO4",
     "optionType":"PUT",
@@ -14268,7 +14268,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNV3400OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"PUT",
@@ -14309,7 +14309,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNV3600OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"PUT",
@@ -14350,7 +14350,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNV3800OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"PUT",
@@ -14391,7 +14391,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNV4000OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"PUT",
@@ -14432,7 +14432,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGNV4200OC",
     "underlyingSymbol":"TGNO4",
     "optionType":"PUT",
@@ -14473,7 +14473,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSC10000O",
     "underlyingSymbol":"TGSU2",
     "optionType":"CALL",
@@ -14514,7 +14514,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSC7500OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"CALL",
@@ -14555,7 +14555,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSC9000OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"CALL",
@@ -14596,7 +14596,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSC9500DI",
     "underlyingSymbol":"TGSU2",
     "optionType":"CALL",
@@ -14637,7 +14637,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSC9500OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"CALL",
@@ -14678,7 +14678,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV7500DI",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14719,7 +14719,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV8000OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14760,7 +14760,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV8500DI",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14801,7 +14801,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV8500OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14842,7 +14842,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV9000DI",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14883,7 +14883,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV9000OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14924,7 +14924,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV9500DI",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -14965,7 +14965,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TGSV9500OC",
     "underlyingSymbol":"TGSU2",
     "optionType":"PUT",
@@ -15006,7 +15006,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC3400OC",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15047,7 +15047,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC3600DI",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15088,7 +15088,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC3600OC",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15129,7 +15129,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC3800DI",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15170,7 +15170,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC3800OC",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15211,7 +15211,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC4000DI",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15252,7 +15252,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC4000OC",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15293,7 +15293,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC4200OC",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15334,7 +15334,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAC4400OC",
     "underlyingSymbol":"TRAN",
     "optionType":"CALL",
@@ -15375,7 +15375,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV3400DI",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15416,7 +15416,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV3400OC",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15457,7 +15457,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV3600DI",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15498,7 +15498,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV3600OC",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15539,7 +15539,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV3800DI",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15580,7 +15580,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV3800OC",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15621,7 +15621,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TRAV4000OC",
     "underlyingSymbol":"TRAN",
     "optionType":"PUT",
@@ -15662,7 +15662,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC450.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15703,7 +15703,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC500.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15744,7 +15744,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC550.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15785,7 +15785,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC650.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15826,7 +15826,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC700.DI",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15867,7 +15867,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC700.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15908,7 +15908,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC750.DI",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15949,7 +15949,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC750.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -15990,7 +15990,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAC800.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"CALL",
@@ -16031,7 +16031,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAV550.DI",
     "underlyingSymbol":"TXAR",
     "optionType":"PUT",
@@ -16072,7 +16072,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAV600.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"PUT",
@@ -16113,7 +16113,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAV650.DI",
     "underlyingSymbol":"TXAR",
     "optionType":"PUT",
@@ -16154,7 +16154,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAV650.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"PUT",
@@ -16195,7 +16195,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAV700.DI",
     "underlyingSymbol":"TXAR",
     "optionType":"PUT",
@@ -16236,7 +16236,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"TXAV700.OC",
     "underlyingSymbol":"TXAR",
     "optionType":"PUT",
@@ -16277,7 +16277,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"VSTC38000O",
     "underlyingSymbol":"VIST",
     "optionType":"CALL",
@@ -16318,7 +16318,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC10000D",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16359,7 +16359,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC10000O",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16400,7 +16400,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC10300D",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16441,7 +16441,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC10300O",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16482,7 +16482,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC10600D",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16523,7 +16523,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC4050OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16564,7 +16564,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC4300OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16605,7 +16605,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC4450OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16646,7 +16646,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC4600OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16687,7 +16687,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC4750OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16728,7 +16728,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC4900OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16769,7 +16769,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC5200OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16810,7 +16810,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC5500OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16851,7 +16851,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC5800OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16892,7 +16892,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC6100OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16933,7 +16933,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC6400OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -16974,7 +16974,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC6700DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17015,7 +17015,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC6700OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17056,7 +17056,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC7000DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17097,7 +17097,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC7000OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17138,7 +17138,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC7300OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17179,7 +17179,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC7600DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17220,7 +17220,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC7600OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17261,7 +17261,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC7900OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17302,7 +17302,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC8200DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17343,7 +17343,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC8200OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17384,7 +17384,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC8500DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17425,7 +17425,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC8500OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17466,7 +17466,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC8800DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17507,7 +17507,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC8800OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17548,7 +17548,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC9100DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17589,7 +17589,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC9100OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17630,7 +17630,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC9400DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17671,7 +17671,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC9400OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17712,7 +17712,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC9700DI",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17753,7 +17753,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFC9700OC",
     "underlyingSymbol":"YPFD",
     "optionType":"CALL",
@@ -17794,7 +17794,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV5800OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -17835,7 +17835,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV6100OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -17876,7 +17876,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV6400OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -17917,7 +17917,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV6700OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -17958,7 +17958,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7000DI",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -17999,7 +17999,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7000OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18040,7 +18040,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7300DI",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18081,7 +18081,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7300OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18122,7 +18122,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7600DI",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18163,7 +18163,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7600OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18204,7 +18204,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV7900OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18245,7 +18245,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV8200OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18286,7 +18286,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV8500DI",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18327,7 +18327,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV8500OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18368,7 +18368,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV8800DI",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18409,7 +18409,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV8800OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18450,7 +18450,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV9100DI",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
@@ -18491,7 +18491,7 @@
     "snapshot_date":"2026-10-13"
   },
   {
-    "snapshot_time_art":"2026-10-13T20:38:45.504631-03:00",
+    "snapshot_time_art":"2026-10-13T22:21:23.383279-03:00",
     "symbol":"YPFV9100OC",
     "underlyingSymbol":"YPFD",
     "optionType":"PUT",
