@@ -1,70 +1,117 @@
 # Argentina options research data
 
-## Intraday recorder
+## Current collector (v3)
 
-`recorder_byma_intraday.py` collects the **delayed** public BYMADATA options
-panel and the leading-equity panel. Polling more often does not remove the
-provider's nominal 20-minute delay or guarantee tick-by-tick coverage.
+`recorder_byma_changes.py` records **observed changes in delayed snapshots**.
+It is not exchange tick data. Polling more often does not remove the provider's
+nominal 20-minute delay, reveal changes between polls, or establish exchange
+latency, order-book queue position, or executable high-frequency opportunities.
 
 ```sh
-# One snapshot, useful for diagnostics:
-python recorder_byma_intraday.py
+# One cycle across the available panels:
+python recorder_byma_changes.py
 
-# Record for 25 minutes, targeting one full snapshot every 30 seconds:
-python recorder_byma_intraday.py --duration-seconds 1500 --interval-seconds 30 --market-hours
-
-# Read the new daily files:
-python -c "import pandas as pd; print(pd.read_csv('data/intraday/options_intraday_v2_2026-10-16.csv.gz').head())"
+# A bounded recording session:
+python recorder_byma_changes.py --duration-seconds 1500 --interval-seconds 2 --market-hours
 ```
 
-- Version 2 uses a fixed CSV schema. Missing fields remain empty; additional
-  source fields are retained in `extra_json`.
-- New files are `data/intraday/options_intraday_v2_YYYY-MM-DD.csv.gz`.
-  Ordinary gzip readers and pandas support the concatenated gzip members.
-- Both requests have separate UTC start/receive timestamps. `snapshot_time_art`
-  is the options response receipt time, **not** the market event time.
-- `underlying_spot_source` distinguishes last trade from closing-price fallbacks.
-  Enrichment failures are marked explicitly and do not discard captured options.
-- The minimum snapshot interval is 30 seconds. All requests, including the
-  underlying request, are spaced at least one second apart. No load test is used
-  to discover the provider's blocking threshold.
+- Options and leading equities are requested approximately every **2 seconds**,
+  using one connection, with **at least one second between all request starts**.
+  Slow responses and additional panels extend the interval; no catch-up bursts.
+- The general equity panel is checked every 30 seconds, and CEDEARs every 60
+  seconds, retaining the instruments referenced as underlyings by the options.
+  These endpoints cover underlying symbols outside the leading panel.
+- All source fields for retained instruments are preserved, including unknown
+  future fields. No zero prices, absent Greeks, or open interest are imputed.
+- Options and underlying states are independent. Each response has UTC request
+  start/receipt times, a unique response ID, and selected HTTP/cache metadata.
+  HTTP `Date` is not an exchange event timestamp. `tradeHour` is the source's
+  last-trade clock and is not the timestamp of each bid/ask update.
+- The leading panel retains both CI and 24h settlements. These must not be mixed
+  as if they were the same instrument or hedge.
+- Changes are compared using source fields, ignoring local capture times and
+  response ordering. No old data is deleted.
+- Each session, each new date, and every five minutes, a complete baseline is
+  stored. Between baselines only changed instruments and removed keys are stored.
+- Every successful response is logged, even if it repeats the previous state.
+  Errors are logged separately. Duplicate data and collection outages are
+  distinguishable. Removal means absent from the tracked panel, not necessarily
+  an exchange delisting; supplemental panels track the current option universe.
 - HTTP 429 honors `Retry-After`, including HTTP dates, with a minimum 60-second
-  pause. The cooldown survives restarts. Failures slow collection up to a
-  15-minute interval; a longer server-requested cooldown is always respected.
-- `recorder_status.json` records counts and errors for the latest session.
-  TLS certificates are validated; there are no fabricated auth tokens.
+  pause. The global cooldown survives restarts and pauses all endpoints.
+  Errors reduce frequency; repeated successes gradually restore the target.
+  There is no published, verified sustainable rate limit for this public endpoint.
+- TLS certificates are validated. No fake auth tokens, proxies, or cache-busting.
+
+### Files
+
+- `data/intraday/byma_events_v3_YYYY-MM-DD.jsonl.gz`: baseline/delta events.
+  Events identify `panel`, `session_id`, `response_id`, observation times,
+  `upserts` (complete source records), and `removed_keys`.
+- `data/intraday/byma_observations_v3_YYYY-MM-DD.jsonl.gz`: every response,
+  including duplicate counts, source-state hash, and HTTP metadata, plus failures.
+- `data/intraday/byma_latest_v3.json`: last full observed panel states, separate
+  observation times and underlying coverage. Written at baselines and session end.
+- `data/intraday/recorder_status_v3.json`: latest session request/error counts.
+
+Gzip readers support the concatenated gzip members. To reconstruct a panel,
+read events in file order: a `baseline` replaces its entire state; a `delta`
+replaces/adds `upserts` and deletes `removed_keys`. Instrument identity is
+`[symbol, settlementType, denominationCcy, market]`, converting each field to a
+string (empty string when absent). Never use a later baseline to fill an earlier
+observation. Different panels are not simultaneous; carry an explicit age and
+choose only information already observed when joining them.
+
+## What is missing for options and HFT research?
+
+The current intraday options source exposes best bid/ask and sizes, last price,
+last-trade clock, aggregate volume, OHLC/VWAP, option type, underlying and expiry.
+It has **no explicit strike field, IV, or Greeks in the inspected responses**.
+`openInterest` exists but was zero for GGAL/YPFD in the inspected intraday samples;
+zero must not be assumed to mean verified absence of positions.
+
+The IAMC daily history includes strikes and some end-of-day IV/Greeks. These
+values have different observation times and model assumptions; they must not be
+assigned to earlier intraday observations. Strike mapping needs validated exact
+instrument/expiry matches, especially adjusted contracts. Multiplier, exercise
+style, deliverable, corporate actions, rates, dividends, and expiry conventions
+also need a trustworthy instrument/reference source before computing analytics.
+Derived IV/Greeks should be stored separately with model version, inputs and
+calculation times; they are not observed market events.
+
+To test HFT execution or subsecond lead/lag, acquire an appropriately licensed
+feed with exchange timestamps, sequencing/recovery and trades/quotes, plus depth
+or order-level events when required. This public snapshot archive cannot recover
+missed ticks, cancellations, intrapoll reversals, or queue priority. It can support
+exploratory liquidity/surface research and strategy development at its measured
+resolution; profitability and fills are not validated by collection alone.
 
 ## Scheduled collection
 
-The workflow starts long-lived sessions at 10:50 and 16:00 Argentina time,
-Monday–Friday. Sessions share a concurrency group, run in 25-minute chunks,
-checkpoint data after each chunk, and stop collection at 18:00 ART to allow
-capture of delayed closing data. Each job stays below the six-hour hosted-runner
-limit. GitHub may delay job starts; this setup does not promise uninterrupted
-coverage or a precision scheduler. Weekdays are filtered, but there is no
-exchange-holiday calendar yet.
+Long-lived sessions start at 10:50 and 16:00 Argentina time, Monday–Friday.
+They share a concurrency group, run in 25-minute chunks, checkpoint after each
+chunk, and stop at 18:00 ART to include delayed closing data. Each job stays
+below GitHub's six-hour hosted-runner limit. GitHub may delay starts; this is not
+an uninterrupted feed or precision scheduler. No exchange holiday calendar yet.
+A running job uses its checked-out code version; a new version may queue until
+the previous job ends.
 
-IAMC runs separately at 19:30 ART. Collection failures fail the job while
-preserving available captures. A fallback Actions artifact is retained for
-14 days if pushing a checkpoint fails. The IAMC recorder alerts if no new report
-is found and the master is over seven calendar days old; it does not invent
-missing reports.
+IAMC runs separately at 19:30 ART. Failures are visible while captures are
+preserved. Fallback Actions artifacts are retained for 14 days. IAMC alerts if
+no new report is found and the master is over seven calendar days old; it does
+not invent missing reports.
 
-From GitHub Actions, run **Record Argentina Options Data** manually using mode
-`session`, `snapshot`, or `daily`. Pushing changes to the recorder/workflow also
-starts a session. Pushes containing only collected data do not start another run.
+Manually run **Record Argentina Options Data** with mode `session`, `snapshot`,
+or `daily`. Recorder/workflow changes also start a session; data-only pushes do
+not. The v2 CSV recorder remains available as `recorder_byma_intraday.py` for
+compatibility, but the workflow now uses v3. Existing v2 and legacy files remain.
 
-## Legacy data
+## Legacy repair
 
-Legacy `.csv` files are preserved separately from the v2 schema. Forty rows in
-`options_intraday_2026-10-14.csv` originally omitted `optionType`, shifting all
-subsequent fields when read with the header. They were realigned, and CALL/PUT
-was restored only using unambiguous exact-symbol matches in other saved
-snapshots. See `data/intraday/legacy_repair_2026-10-14.json` for the affected lines.
-This repair does not turn off-hours snapshots into market-hours observations.
-
-The IAMC master and BYMADATA snapshots have different timestamps, coverage, and
-pricing conventions. They should not be joined as simultaneous executable quotes.
+Forty rows in `options_intraday_2026-10-14.csv` omitted `optionType`, shifting
+subsequent fields. They were realigned, and CALL/PUT restored only from
+unambiguous exact-symbol matches in existing snapshots. The audit trail is in
+`data/intraday/legacy_repair_2026-10-14.json`.
 
 ## Validation
 

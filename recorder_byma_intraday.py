@@ -62,6 +62,7 @@ class Client:
         self.clock, self.sleep = clock, sleep
         self.last_request = None
         self.requests = 0
+        self.http_metadata = {}
         self.cooldown_file = output / 'byma_cooldown.json'
         self.not_before = None
         if self.cooldown_file.exists():
@@ -77,6 +78,14 @@ class Client:
         self.requests += 1
         response = self.session.post(f'{BASE_API}/{name}', json=payload, timeout=(10, 25))
         received = utcnow().isoformat()
+        self.http_metadata[name] = {
+            'status': response.status_code,
+            'latency_seconds': (datetime.fromisoformat(received) - datetime.fromisoformat(started)).total_seconds(),
+            'decoded_body_bytes': len(response.content),
+            'headers': {key: response.headers[key] for key in (
+                'Date', 'Age', 'ETag', 'Last-Modified', 'Cache-Control', 'Content-Encoding', 'X-Cache'
+            ) if key in response.headers},
+        }
         if response.status_code == 429:
             seconds = max(60, retry_seconds(response.headers.get('Retry-After')))
             self.not_before = utcnow() + timedelta(seconds=seconds)

@@ -69,6 +69,7 @@ class RecorderTests(unittest.TestCase):
     def test_429_cooldown_survives_restart_without_another_request(self):
         session = Mock()
         response = Mock(status_code=429, headers={'Retry-After': '1200'})
+        response.content = b''
         session.post.return_value = response
         client = recorder.Client(self.output, session=session)
         with self.assertRaises(recorder.RateLimited) as caught:
@@ -82,6 +83,8 @@ class RecorderTests(unittest.TestCase):
     def test_global_request_spacing_includes_both_endpoints(self):
         session = Mock()
         session.post.return_value.status_code = 200
+        session.post.return_value.content = b'[]'
+        session.post.return_value.headers = {}
         session.post.return_value.json.return_value = [OPTION]
         sleep = Mock()
         client = recorder.Client(self.output, session=session, clock=lambda: 10, sleep=sleep)
@@ -92,6 +95,8 @@ class RecorderTests(unittest.TestCase):
     def test_api_error_does_not_look_like_empty_success(self):
         session = Mock()
         session.post.return_value.status_code = 200
+        session.post.return_value.content = b'{}'
+        session.post.return_value.headers = {}
         session.post.return_value.json.return_value = {'status': 'ERROR'}
         with self.assertRaises(ValueError):
             recorder.Client(self.output, session=session).panel('options', {})

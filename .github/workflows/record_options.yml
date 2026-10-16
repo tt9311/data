@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/record_options.yml'
       - 'recorder_byma_intraday.py'
+      - 'recorder_byma_changes.py'
       - 'recorder_iamc_daily.py'
   schedule:
     # Long-lived morning session and an afternoon continuation (ART = UTC-3).
@@ -65,13 +66,13 @@ jobs:
             python recorder_iamc_daily.py || result=1
             checkpoint
           elif [[ "$mode" == snapshot ]]; then
-            python recorder_byma_intraday.py --market-hours || result=1
+            python recorder_byma_changes.py --market-hours || result=1
             checkpoint
           else
             # Each chunk lasts at most 25 minutes; commit before starting the next.
             # 13 chunks stay below the runner's six-hour execution limit.
             for batch in {1..13}; do
-              python recorder_byma_intraday.py --market-hours --interval-seconds 30 --duration-seconds 1500 || result=1
+              python recorder_byma_changes.py --market-hours --interval-seconds 2 --duration-seconds 1500 || result=1
               checkpoint
               if ! python -c 'from datetime import datetime, timezone, timedelta; import sys; n=datetime.now(timezone(timedelta(hours=-3))); sys.exit(0 if n.weekday()<5 and n.hour<18 else 1)'; then
                 break
