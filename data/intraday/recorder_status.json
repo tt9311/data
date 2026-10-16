@@ -1,10 +1,10 @@
 {
-  "started_at_utc": "2026-10-16T19:50:48.846309+00:00",
+  "started_at_utc": "2026-10-16T20:15:22.063347+00:00",
   "snapshots": 50,
-  "rows": 26904,
+  "rows": 27004,
   "errors": 0,
   "rate_limits": 0,
-  "finished_at_utc": "2026-10-16T20:15:20.034189+00:00",
+  "finished_at_utc": "2026-10-16T20:39:53.251065+00:00",
   "requests": 100,
   "final_interval_seconds": 30.0
 }
