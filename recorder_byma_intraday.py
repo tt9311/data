@@ -1,127 +1,232 @@
 #!/usr/bin/env python3
-"""
-recorder_byma_intraday.py
-Captura un snapshot intradiario de todas las opciones en BYMA y lo appendea
-al archivo CSV diario en data/intraday/options_intraday_YYYY-MM-DD.csv
-"""
-
-import os
-import sys
+"""Record delayed BYMADATA panels once or in a rate-aware recording session."""
+import argparse
+import csv
+import gzip
+import io
 import json
-import random
-from datetime import datetime, timezone, timedelta
+import logging
+import os
+from pathlib import Path
+import time
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from uuid import uuid4
 import requests
-import urllib3
-import pandas as pd
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+ART = timezone(timedelta(hours=-3))
+BASE_API = 'https://open.bymadata.com.ar/vanoms-be-core/rest/api/bymadata/free'
+LOG = logging.getLogger(__name__)
+FIELDS = [
+    'snapshot_time_art', 'symbol', 'underlyingSymbol', 'optionType',
+    'underlying_spot', 'underlying_bid', 'underlying_offer', 'underlying_vwap',
+    'trade', 'bidPrice', 'offerPrice', 'quantityBid', 'quantityOffer',
+    'tradeVolume', 'volumeAmount', 'vwap', 'openInterest', 'imbalance',
+    'maturityDate', 'daysToMaturity', 'tradeHour', 'closingPrice',
+    'openingPrice', 'tradingHighPrice', 'tradingLowPrice', 'settlementPrice',
+    'previousSettlementPrice', 'description', 'numberOfOrders', 'tickDirection',
+    'securityDesc', 'securitySubType', 'previousClosingPrice', 'settlementType',
+    'denominationCcy', 'market', 'volume', 'securityType', 'snapshot_date',
+    'schema_version', 'snapshot_id', 'source_delay_minutes',
+    'options_request_started_at_utc', 'options_received_at_utc',
+    'underlyings_request_started_at_utc', 'underlyings_received_at_utc',
+    'underlying_spot_source', 'enrichment_status', 'extra_json',
+]
 
-BASE_API = "https://open.bymadata.com.ar/vanoms-be-core/rest/api/bymadata/free"
-BASE_URL = f"{BASE_API}/options"
-EQUITY_URL = f"{BASE_API}/leading-equity"
+def utcnow():
+    return datetime.now(timezone.utc)
 
-def get_argentina_time():
-    art_tz = timezone(timedelta(hours=-3))
-    return datetime.now(art_tz)
+def atomic_json(path, value):
+    temporary = path.with_suffix(path.suffix + '.tmp')
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
+    temporary.replace(path)
 
-def _build_headers():
-    key_access = "dc826d4c2dde7519e882a250359a23a" + str(random.randint(0, 9))
-    return {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-        "Cache-Control": "no-cache,no-store,max-age=1,must-revalidate",
-        "Expires": "1",
-        "Token": key_access,
-        "Options": "derivados"
-    }
-
-def fetch_byma_options():
-    headers = _build_headers()
-    for payload in ({}, {"excludeZeroPxAndQty": False, "T1": True, "T0": True, "page_number": 1, "page_size": 2000}):
-        resp = requests.post(BASE_URL, headers=headers, json=payload, verify=False, timeout=25)
-        resp.raise_for_status()
-        data = resp.json()
-        items = data.get("data", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
-        if items:
-            return items
-    return []
-
-def fetch_byma_underlyings():
-    """Obtiene precios spot y puntas simultáneas de los subyacentes en 24hs (T1)."""
-    spots = {}
+def retry_seconds(value, now=None):
     try:
-        headers = _build_headers()
-        resp = requests.post(EQUITY_URL, headers=headers, json={"T1": True, "page_size": 100}, verify=False, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        items = data.get("data", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
-        for it in items:
-            sym = it.get("symbol")
-            if sym:
-                spots[sym] = {
-                    "underlying_spot": it.get("trade") or it.get("closingPrice") or it.get("previousClosingPrice"),
-                    "underlying_bid": it.get("bidPrice"),
-                    "underlying_offer": it.get("offerPrice"),
-                    "underlying_vwap": it.get("vwap"),
-                }
-    except Exception as e:
-        print(f"Aviso: no se pudo consultar leading-equity para enriquecer subyacentes: {e}")
-    return spots
+        return max(0, float(value))
+    except (ValueError, TypeError):
+        try:
+            return max(0, (parsedate_to_datetime(value) - (now or utcnow())).total_seconds())
+        except (ValueError, TypeError, OverflowError):
+            return 60
+
+class RateLimited(Exception):
+    def __init__(self, seconds):
+        self.seconds = seconds
+        super().__init__(f'HTTP 429: wait at least {seconds:.0f}s')
+
+class Client:
+    def __init__(self, output, session=None, clock=time.monotonic, sleep=time.sleep):
+        self.session = session or requests.Session()
+        self.session.headers.update({'User-Agent': 'BYMA-research-recorder/2.0', 'Accept': 'application/json'})
+        self.clock, self.sleep = clock, sleep
+        self.last_request = None
+        self.requests = 0
+        self.cooldown_file = output / 'byma_cooldown.json'
+        self.not_before = None
+        if self.cooldown_file.exists():
+            self.not_before = datetime.fromisoformat(json.loads(self.cooldown_file.read_text())['not_before_utc'])
+
+    def panel(self, name, payload):
+        if self.not_before and self.not_before > utcnow():
+            raise RateLimited((self.not_before - utcnow()).total_seconds())
+        if self.last_request is not None:
+            self.sleep(max(0, 1.0 - (self.clock() - self.last_request)))
+        self.last_request = self.clock()
+        started = utcnow().isoformat()
+        self.requests += 1
+        response = self.session.post(f'{BASE_API}/{name}', json=payload, timeout=(10, 25))
+        received = utcnow().isoformat()
+        if response.status_code == 429:
+            seconds = max(60, retry_seconds(response.headers.get('Retry-After')))
+            self.not_before = utcnow() + timedelta(seconds=seconds)
+            atomic_json(self.cooldown_file, {'not_before_utc': self.not_before.isoformat()})
+            raise RateLimited(seconds)
+        response.raise_for_status()
+        data = response.json()
+        items = data.get('data') if isinstance(data, dict) else data
+        if not isinstance(items, list) or not items or not all(isinstance(x, dict) for x in items):
+            raise ValueError(f'Empty or invalid {name} panel')
+        return items, started, received
+
+def collect(client):
+    options, started, received = client.panel('options', {})
+    # Sequential requests are not simultaneous quotes. Preserve both times.
+    spots, spot_started, spot_received, enrichment = {}, '', '', 'ok'
+    try:
+        equities, spot_started, spot_received = client.panel('leading-equity', {'T1': True, 'page_size': 100})
+        spots = {x['symbol']: x for x in equities if x.get('symbol') and str(x.get('settlementType')) == '2'}
+    except (requests.RequestException, ValueError, RateLimited) as exc:
+        enrichment = 'rate_limited' if isinstance(exc, RateLimited) else 'failed'
+        LOG.warning('Underlying enrichment unavailable: %s', exc)
+    snapshot_id = str(uuid4())
+    captured = datetime.fromisoformat(received).astimezone(ART)
+    rows, seen = [], set()
+    for item in options:
+        if not item.get('symbol') or item.get('securityType', 'OPT') != 'OPT':
+            raise ValueError('Non-option or missing symbol in options panel')
+        if item.get('optionType') not in (None, '', 'CALL', 'PUT'):
+            raise ValueError('Invalid optionType in options panel')
+        key = (item['symbol'], item.get('settlementType'))
+        if key in seen:
+            raise ValueError(f'Duplicate instrument: {key}')
+        seen.add(key)
+        row = {key: item.get(key, '') for key in FIELDS}
+        row.update(schema_version=2, snapshot_id=snapshot_id, snapshot_time_art=captured.isoformat(),
+                   snapshot_date=captured.date().isoformat(), source_delay_minutes=20,
+                   options_request_started_at_utc=started, options_received_at_utc=received,
+                   underlyings_request_started_at_utc=spot_started, underlyings_received_at_utc=spot_received,
+                   enrichment_status=enrichment if enrichment != 'ok' else 'missing_underlying')
+        spot = spots.get(item.get('underlyingSymbol'))
+        if spot:
+            source = next((k for k in ('trade', 'closingPrice', 'previousClosingPrice') if spot.get(k)), '')
+            row.update(underlying_spot=spot.get(source, ''), underlying_spot_source=source,
+                       underlying_bid=spot.get('bidPrice', ''), underlying_offer=spot.get('offerPrice', ''),
+                       underlying_vwap=spot.get('vwap', ''), enrichment_status='ok')
+        row['extra_json'] = json.dumps({k: v for k, v in item.items() if k not in FIELDS}, ensure_ascii=False, sort_keys=True)
+        rows.append(row)
+    return rows
+
+def save_snapshot(output, rows):
+    # A new version never appends new fields under a legacy CSV header.
+    path = output / f"options_intraday_v2_{rows[0]['snapshot_date']}.csv.gz"
+    exists = path.exists() and path.stat().st_size > 0
+    if exists:
+        with gzip.open(path, 'rt', encoding='utf-8', newline='') as handle:
+            if next(csv.reader(handle)) != FIELDS:
+                raise ValueError(f'Unexpected CSV schema: {path}')
+    buffer = io.StringIO(newline='')
+    writer = csv.DictWriter(buffer, fieldnames=FIELDS)
+    if not exists:
+        writer.writeheader()
+    writer.writerows(rows)
+    # Concatenated gzip members avoid re-compressing earlier snapshots.
+    with path.open('ab') as handle:
+        handle.write(gzip.compress(buffer.getvalue().encode('utf-8'), compresslevel=6, mtime=0))
+        handle.flush()
+        os.fsync(handle.fileno())
+    atomic_json(output / 'options_intraday_latest.json', rows)
+    return path
+
+def market_bounds(now):
+    local = now.astimezone(ART)
+    return (local.replace(hour=11, minute=0, second=0, microsecond=0),
+            local.replace(hour=18, minute=0, second=0, microsecond=0))
+
+def run(args):
+    output = Path(args.output_dir)
+    output.mkdir(parents=True, exist_ok=True)
+    deadline = time.monotonic() + args.duration_seconds
+    client = Client(output)
+    interval, streak = args.interval_seconds, 0
+    summary = {'started_at_utc': utcnow().isoformat(), 'snapshots': 0, 'rows': 0, 'errors': 0, 'rate_limits': 0}
+    failed = False
+    try:
+        while True:
+            cycle = time.monotonic()
+            if args.market_hours:
+                local = utcnow().astimezone(ART)
+                opening, closing = market_bounds(local)
+                if local.weekday() >= 5 or local >= closing:
+                    break
+                if local < opening:
+                    wait = (opening - local).total_seconds()
+                    if args.duration_seconds == 0 or cycle + wait >= deadline:
+                        break
+                    time.sleep(wait)
+                    continue
+            wait = interval
+            try:
+                rows = collect(client)
+                path = save_snapshot(output, rows)
+                summary['snapshots'] += 1
+                summary['rows'] += len(rows)
+                LOG.info('Saved %s rows to %s', len(rows), path)
+                streak += 1
+                if streak >= 10:
+                    interval = max(args.interval_seconds, interval / 2)
+                    streak = 0
+                wait = max(0, interval - (time.monotonic() - cycle))
+                if client.not_before and client.not_before > utcnow():
+                    raise RateLimited((client.not_before - utcnow()).total_seconds())
+            except RateLimited as exc:
+                summary['rate_limits'] += 1
+                interval = min(900, max(60, interval * 2))
+                streak, wait = 0, max(interval, exc.seconds)
+                LOG.warning('%s; next attempt in %.0fs', exc, wait)
+                if args.duration_seconds == 0:
+                    failed = True
+            except (requests.RequestException, ValueError) as exc:
+                summary['errors'] += 1
+                LOG.error('Snapshot failed: %s', exc)
+                streak = 0
+                interval = min(900, max(60, interval * 2))
+                wait = interval
+                if isinstance(exc, requests.HTTPError) and exc.response is not None and 400 <= exc.response.status_code < 500:
+                    failed = True
+                    break
+            if not args.duration_seconds or time.monotonic() + wait >= deadline:
+                break
+            if args.market_hours and utcnow().astimezone(ART) + timedelta(seconds=wait) >= closing:
+                break
+            time.sleep(wait)
+    finally:
+        summary.update(finished_at_utc=utcnow().isoformat(), requests=client.requests, final_interval_seconds=interval)
+        atomic_json(output / 'recorder_status.json', summary)
+        LOG.info('Session: %s', json.dumps(summary))
+    return 1 if failed or ((summary['errors'] or summary['rate_limits']) and not summary['snapshots']) else 0
 
 def main():
-    now_art = get_argentina_time()
-    date_str = now_art.strftime("%Y-%m-%d")
-    timestamp_iso = now_art.isoformat()
-    
-    print(f"[{timestamp_iso}] Consultando snapshot de opciones en BYMA...")
-    try:
-        items = fetch_byma_options()
-    except Exception as e:
-        print(f"Error al consultar BYMA: {e}")
-        sys.exit(1)
-        
-    if not items:
-        print("El panel de opciones devolvió 0 items (mercado cerrado o sin cotizaciones activas).")
-        return
-        
-    print(f"Obtenidos {len(items)} contratos de opciones.")
-    spots = fetch_byma_underlyings()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', default='data/intraday')
+    parser.add_argument('--interval-seconds', type=float, default=30)
+    parser.add_argument('--duration-seconds', type=float, default=0, help='0: collect once')
+    parser.add_argument('--market-hours', action='store_true', help='Weekdays 11:00–18:00 ART, including delayed close')
+    args = parser.parse_args()
+    if args.interval_seconds < 30 or args.duration_seconds < 0:
+        parser.error('interval must be >= 30 seconds and duration >= 0')
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+    return run(args)
 
-    df = pd.DataFrame(items)
-    df["snapshot_time_art"] = timestamp_iso
-    df["snapshot_date"] = date_str
-
-    if "underlyingSymbol" in df.columns and spots:
-        df["underlying_spot"] = df["underlyingSymbol"].map(lambda s: spots.get(s, {}).get("underlying_spot"))
-        df["underlying_bid"] = df["underlyingSymbol"].map(lambda s: spots.get(s, {}).get("underlying_bid"))
-        df["underlying_offer"] = df["underlyingSymbol"].map(lambda s: spots.get(s, {}).get("underlying_offer"))
-        df["underlying_vwap"] = df["underlyingSymbol"].map(lambda s: spots.get(s, {}).get("underlying_vwap"))
-    
-    # Columnas de interés ordenadas
-    cols_order = [
-        "snapshot_time_art", "symbol", "underlyingSymbol", "optionType",
-        "underlying_spot", "underlying_bid", "underlying_offer", "underlying_vwap",
-        "trade", "bidPrice", "offerPrice", "quantityBid", "quantityOffer",
-        "tradeVolume", "volumeAmount", "vwap", "openInterest", "imbalance",
-        "maturityDate", "daysToMaturity", "tradeHour", "closingPrice",
-        "openingPrice", "tradingHighPrice", "tradingLowPrice", "settlementPrice"
-    ]
-    present_cols = [c for c in cols_order if c in df.columns] + [c for c in df.columns if c not in cols_order]
-    df = df[present_cols]
-    
-    out_dir = os.path.join("data", "intraday")
-    os.makedirs(out_dir, exist_ok=True)
-    out_file = os.path.join(out_dir, f"options_intraday_{date_str}.csv")
-    
-    # Append al CSV del día (o crea si no existe)
-    file_exists = os.path.exists(out_file)
-    df.to_csv(out_file, mode="a", header=not file_exists, index=False, encoding="utf-8")
-    print(f"Snapshot guardado exitosamente en {out_file} (Total filas agregadas: {len(df)})")
-
-    latest_json = os.path.join(out_dir, "options_intraday_latest.json")
-    df.to_json(latest_json, orient="records", indent=2, force_ascii=False)
-    print(f"Snapshot más reciente exportado a {latest_json}")
-
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    raise SystemExit(main())

@@ -1,0 +1,207 @@
+{
+  "file": "data/intraday/options_intraday_2026-10-14.csv",
+  "reason": "40 rows omitted optionType and shifted all subsequent fields on CSV import",
+  "repair": "Mapped the 38 fields against the existing header without optionType. Restored CALL/PUT only from an unambiguous exact-symbol match in other existing snapshots. Other field values preserved.",
+  "rows": [
+    {
+      "line": 966,
+      "symbol": "BBAV6600DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 967,
+      "symbol": "BBAV8600OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 968,
+      "symbol": "BMAV10800O",
+      "optionType": "PUT"
+    },
+    {
+      "line": 969,
+      "symbol": "BYMC280.OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 970,
+      "symbol": "BYMV290.OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 971,
+      "symbol": "COMC35.0OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 972,
+      "symbol": "COMC43.0DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 973,
+      "symbol": "COMC53.0OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 974,
+      "symbol": "COMV35.0DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 975,
+      "symbol": "COMV37.0OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 976,
+      "symbol": "COMV45.0OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 977,
+      "symbol": "GFGC6800DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 978,
+      "symbol": "GFGC7600DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 979,
+      "symbol": "GFGC7800OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 980,
+      "symbol": "GFGC9200DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 981,
+      "symbol": "METC2600DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 982,
+      "symbol": "METC2700DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 983,
+      "symbol": "METC2800OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 984,
+      "symbol": "PAMC3900OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 985,
+      "symbol": "PAMC4500OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 986,
+      "symbol": "PAMC6200OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 987,
+      "symbol": "PAMV5300DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 988,
+      "symbol": "PAMV5600OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 989,
+      "symbol": "SUPC2400OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 990,
+      "symbol": "SUPV2200DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 991,
+      "symbol": "SUPV2600OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 992,
+      "symbol": "TECC4000OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 993,
+      "symbol": "TECV3200DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 994,
+      "symbol": "TRAC3400OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 995,
+      "symbol": "TRAV3400DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 996,
+      "symbol": "TRAV3600OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 997,
+      "symbol": "TXAC450.OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 998,
+      "symbol": "TXAV700.OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 999,
+      "symbol": "YPFC7000DI",
+      "optionType": "CALL"
+    },
+    {
+      "line": 1000,
+      "symbol": "YPFC7300OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 1001,
+      "symbol": "YPFC9100OC",
+      "optionType": "CALL"
+    },
+    {
+      "line": 1002,
+      "symbol": "YPFV5800OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 1003,
+      "symbol": "YPFV7300DI",
+      "optionType": "PUT"
+    },
+    {
+      "line": 1004,
+      "symbol": "YPFV7600OC",
+      "optionType": "PUT"
+    },
+    {
+      "line": 1005,
+      "symbol": "YPFV9100OC",
+      "optionType": "PUT"
+    }
+  ]
+}

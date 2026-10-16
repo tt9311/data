@@ -2,17 +2,24 @@ name: Record Argentina Options Data
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - '.github/workflows/record_options.yml'
       - 'recorder_byma_intraday.py'
       - 'recorder_iamc_daily.py'
   schedule:
-    # 1) Intradia BYMA: Cada 15 min de Lunes a Viernes entre 11:00 y 17:00 ART (14:00 a 20:00 UTC)
-    - cron: '*/15 14-20 * * 1-5'
-    # 2) Cierre diario IAMC: Lunes a Viernes a las 19:30 ART (22:30 UTC)
+    # Long-lived morning session and an afternoon continuation (ART = UTC-3).
+    # The continuation queues behind the morning run instead of cancelling it.
+    - cron: '50 13 * * 1-5'
+    - cron: '0 19 * * 1-5'
     - cron: '30 22 * * 1-5'
-  workflow_dispatch: # Permite ejecutar manualmente cuando quieras con 1 click
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Collection mode
+        type: choice
+        options: [session, snapshot, daily]
+        default: session
 
 concurrency:
   group: record-options-data
@@ -21,40 +28,65 @@ concurrency:
 jobs:
   collect-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     permissions:
       contents: write
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests urllib3 pandas pypdf openpyxl
+        run: python -m pip install requests pandas pypdf openpyxl
+      - name: Validate recorder
+        run: python -m unittest discover -s tests -v
 
-      - name: Record Intraday BYMA (durante la rueda)
-        continue-on-error: true
+      - name: Record and checkpoint data
+        env:
+          REQUESTED_MODE: ${{ inputs.mode }}
+          SCHEDULE: ${{ github.event.schedule }}
+        shell: bash
         run: |
-          python recorder_byma_intraday.py
-
-      - name: Record Daily IAMC (cierre de rueda)
-        continue-on-error: true
-        run: |
-          python recorder_iamc_daily.py
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/intraday/ data/daily/*.csv data/daily/*.json 2>/dev/null || git add data/intraday/ data/daily/
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: update options data [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
-            git push
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          checkpoint() {
+            git add data/intraday/ data/daily/
+            if ! git diff --staged --quiet; then
+              git commit -m 'chore: checkpoint options data [skip ci]'
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+          }
+          mode="${REQUESTED_MODE:-session}"
+          if [[ "$SCHEDULE" == '30 22 * * 1-5' ]]; then mode=daily; fi
+          result=0
+          if [[ "$mode" == daily ]]; then
+            python recorder_iamc_daily.py || result=1
+            checkpoint
+          elif [[ "$mode" == snapshot ]]; then
+            python recorder_byma_intraday.py --market-hours || result=1
+            checkpoint
+          else
+            # Each chunk lasts at most 25 minutes; commit before starting the next.
+            # 13 chunks stay below the runner's six-hour execution limit.
+            for batch in {1..13}; do
+              python recorder_byma_intraday.py --market-hours --interval-seconds 30 --duration-seconds 1500 || result=1
+              checkpoint
+              if ! python -c 'from datetime import datetime, timezone, timedelta; import sys; n=datetime.now(timezone(timedelta(hours=-3))); sys.exit(0 if n.weekday()<5 and n.hour<18 else 1)'; then
+                break
+              fi
+            done
           fi
+          exit "$result"
+
+      - name: Preserve captures even if checkpointing fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: options-capture-${{ github.run_id }}
+          path: |
+            data/intraday/
+            data/daily/*.csv
+            data/daily/*.json
+          retention-days: 14

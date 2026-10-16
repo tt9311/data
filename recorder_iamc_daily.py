@@ -85,6 +85,15 @@ def main():
     keep_pdf = "--keep-pdf" in sys.argv
     pending = download_missing_iamc(lookback_days=7)
     if not pending:
+        master = os.path.join('data', 'daily', 'options_iamc_master_history.csv')
+        if not os.path.exists(master):
+            raise RuntimeError('IAMC: no reports downloaded and no historical master exists')
+        history = pd.read_csv(master, usecols=['fecha_reporte'])
+        latest = pd.to_datetime(history['fecha_reporte']).max()
+        age = (get_argentina_time().date() - latest.date()).days if not pd.isna(latest) else 999
+        print(f'IAMC: último informe disponible {latest}; antigüedad {age} días.')
+        if age > 7:
+            raise RuntimeError('IAMC: historical data is more than 7 days old; check source/download/parser')
         return
 
     out_daily_dir = os.path.join("data", "daily")
