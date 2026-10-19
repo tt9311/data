@@ -1,0 +1,14 @@
+data/
+reports/
+*.sqlite*
+*.jsonl
+*.log
+__pycache__/
+.venv/
+.python-packages/
+.env
+.env.*
+!.env.example
+*.zip
+.test-data/
+.publish/

@@ -118,3 +118,11 @@ unambiguous exact-symbol matches in existing snapshots. The audit trail is in
 ```sh
 python -m unittest discover -s tests -v
 ```
+
+## PPI WebSocket research lab
+
+See [ppi-market-data-lab](ppi-market-data-lab/README.md) for a separate authenticated
+PPI collector with raw book/trade events, local reception timing, SQLite,
+quality reports, quote replay, tests and Docker deployment files. Its workflow
+captures PPI data only in private repositories; the public repository runs offline
+tests. It does not place orders or validate HFT execution.

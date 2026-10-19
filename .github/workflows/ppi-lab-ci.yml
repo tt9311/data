@@ -1,0 +1,20 @@
+name: Tests offline
+on: [push, pull_request]
+defaults:
+  run:
+    working-directory: ppi-market-data-lab
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: python -m compileall -q .
