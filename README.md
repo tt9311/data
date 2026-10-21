@@ -97,9 +97,12 @@ A running job uses its checked-out code version; a new version may queue until
 the previous job ends.
 
 IAMC runs separately at 19:30 ART. Failures are visible while captures are
-preserved. Fallback Actions artifacts are retained for 14 days. IAMC alerts if
-no new report is found and the master is over seven calendar days old; it does
-not invent missing reports.
+preserved. Fallback Actions artifacts are retained for 14 days. IAMC discovers
+reports from its official daily index. `data/daily/iamc_status.json` records the
+published date, dataset date, age, and freshness. If both dates match but are over
+seven days old, Actions displays a `source_stale` warning without treating old
+reports as current. A published report missing locally, an unreadable index, or
+a download/parser failure that leaves the dataset behind still fails the job.
 
 Manually run **Record Argentina Options Data** with mode `session`, `snapshot`,
 or `daily`. Recorder/workflow changes also start a session; data-only pushes do

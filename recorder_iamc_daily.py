@@ -10,11 +10,11 @@ import os
 import re
 import ssl
 import sys
-import glob
+import json
+from pathlib import Path
 from datetime import datetime, timezone, timedelta
 import urllib.request
 import pandas as pd
-from pypdf import PdfReader
 from build_options_datasets import parse_pdf_file
 
 ctx = ssl.create_default_context()
@@ -25,17 +25,66 @@ def get_argentina_time():
     art_tz = timezone(timedelta(hours=-3))
     return datetime.now(art_tz)
 
-def download_missing_iamc(lookback_days=7):
+INDEX_URL = 'https://www.iamc.com.ar/informediario/'
+
+
+def discover_reports():
+    request = urllib.request.Request(INDEX_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(request, context=ctx, timeout=25) as response:
+        html = response.read().decode('utf-8', errors='replace')
+    dates = set()
+    for value in re.findall(r'href=["\'][^"\']*/Informe/InformeDiarioOpciones(\d{8})/?["\']', html, re.I):
+        try:
+            date = datetime.strptime(value, '%d%m%Y').date()
+        except ValueError:
+            continue
+        if date <= get_argentina_time().date():
+            dates.add(date)
+    if not dates:
+        raise RuntimeError('IAMC: official index contains no recognized options reports; check source/index parser')
+    return sorted(dates)
+
+
+def check_freshness(source_latest):
+    master = Path('data/daily/options_iamc_master_history.csv')
+    latest = None
+    if master.exists():
+        history = pd.read_csv(master, usecols=['fecha_reporte'])
+        value = pd.to_datetime(history['fecha_reporte']).max()
+        if not pd.isna(value):
+            latest = value.date()
+    age = (get_argentina_time().date() - latest).days if latest else None
+    status = 'local_lagging' if latest is None or latest < source_latest else (
+        'source_stale' if age > 7 else 'current')
+    health = {'checked_at': get_argentina_time().isoformat(), 'status': status,
+              'source_index_url': INDEX_URL, 'source_latest_report': source_latest.isoformat(),
+              'dataset_latest_report': latest.isoformat() if latest else None, 'dataset_age_days': age,
+              'fresh': status == 'current'}
+    target = Path('data/daily/iamc_status.json');target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(health, indent=2)+'\n')
+    text = f'IAMC: {status}; published={source_latest}; local={latest}; age_days={age}.'
+    print(('::warning::' if status == 'source_stale' else '')+text)
+    summary = os.environ.get('GITHUB_STEP_SUMMARY')
+    if summary:
+        with open(summary, 'a') as stream:
+            stream.write(text+'\n')
+    if status == 'local_lagging':
+        raise RuntimeError('IAMC: a published report is missing locally; check download/parser')
+    return health
+
+
+def download_missing_iamc(lookback_days=7, source_reports=None):
     now_art = get_argentina_time()
     out_daily_dir = os.path.join("data", "daily")
     out_pdf_dir = os.path.join(out_daily_dir, "pdf")
     os.makedirs(out_pdf_dir, exist_ok=True)
 
     downloaded = []
-    # Check from oldest to newest within lookback window
-    for offset in reversed(range(lookback_days + 1)):
-        dt = now_art - timedelta(days=offset)
-        if dt.weekday() >= 5:  # Skip Saturday/Sunday
+    # Use advertised reports, including the latest even when publication stalls.
+    source_reports = source_reports if source_reports is not None else discover_reports()
+    cutoff = now_art.date() - timedelta(days=lookback_days)
+    for dt in source_reports:
+        if dt < cutoff and dt != max(source_reports):
             continue
         d_ddmmyyyy = dt.strftime("%d%m%Y")
         d_iso = dt.strftime("%Y-%m-%d")
@@ -73,8 +122,8 @@ def download_missing_iamc(lookback_days=7):
                                 f_out.write(p_resp.read())
                         print(f"Descargado con éxito: {pdf_path}")
                         downloaded.append((pdf_path, d_ddmmyyyy, True))
-        except Exception:
-            pass
+        except Exception as error:
+            print(f"::warning::IAMC: {name} download failed ({type(error).__name__})")
 
     if not downloaded:
         print("No se encontraron nuevos informes diarios pendientes en IAMC.")
@@ -83,17 +132,10 @@ def download_missing_iamc(lookback_days=7):
 
 def main():
     keep_pdf = "--keep-pdf" in sys.argv
-    pending = download_missing_iamc(lookback_days=7)
+    source_reports = discover_reports()
+    pending = download_missing_iamc(lookback_days=7, source_reports=source_reports)
     if not pending:
-        master = os.path.join('data', 'daily', 'options_iamc_master_history.csv')
-        if not os.path.exists(master):
-            raise RuntimeError('IAMC: no reports downloaded and no historical master exists')
-        history = pd.read_csv(master, usecols=['fecha_reporte'])
-        latest = pd.to_datetime(history['fecha_reporte']).max()
-        age = (get_argentina_time().date() - latest.date()).days if not pd.isna(latest) else 999
-        print(f'IAMC: último informe disponible {latest}; antigüedad {age} días.')
-        if age > 7:
-            raise RuntimeError('IAMC: historical data is more than 7 days old; check source/download/parser')
+        check_freshness(max(source_reports))
         return
 
     out_daily_dir = os.path.join("data", "daily")
@@ -114,7 +156,9 @@ def main():
             continue
 
         df = pd.DataFrame(records)
-        actual_date = df["fecha_reporte"].iloc[0]
+        actual_date = datetime.strptime(date_str, '%d%m%Y').date().isoformat()
+        if set(df['fecha_reporte']) != {actual_date}:
+            raise RuntimeError(f'IAMC: PDF report date does not match requested date {actual_date}')
 
         daily_csv = os.path.join(out_daily_dir, f"options_iamc_{actual_date}.csv")
         df.to_csv(daily_csv, index=False, encoding="utf-8-sig")
@@ -142,6 +186,8 @@ def main():
         latest_json = os.path.join(out_daily_dir, "options_iamc_latest.json")
         latest_df.to_json(latest_json, orient="records", indent=2, force_ascii=False)
         print(f"Actualizado snapshot JSON más reciente en {latest_json}.")
+
+    check_freshness(max(source_reports))
 
 
 if __name__ == "__main__":
