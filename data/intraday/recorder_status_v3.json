@@ -1,11 +1,11 @@
 {
-  "started_at_utc": "2026-10-21T18:34:27.082029+00:00",
+  "started_at_utc": "2026-10-21T18:59:32.400456+00:00",
   "successful_responses": 1501,
-  "duplicate_responses": 1399,
-  "changed_instruments": 4750,
+  "duplicate_responses": 1400,
+  "changed_instruments": 4060,
   "errors": 0,
   "rate_limits": 0,
-  "finished_at_utc": "2026-10-21T18:59:27.589737+00:00",
+  "finished_at_utc": "2026-10-21T19:24:32.903691+00:00",
   "requests": 1501,
   "final_interval_seconds": 2.0
 }
