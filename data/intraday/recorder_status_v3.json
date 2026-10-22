@@ -1,11 +1,11 @@
 {
-  "started_at_utc": "2026-10-22T19:26:33.260953+00:00",
-  "successful_responses": 1501,
-  "duplicate_responses": 1399,
-  "changed_instruments": 3452,
-  "errors": 0,
+  "started_at_utc": "2026-10-22T19:51:36.575710+00:00",
+  "successful_responses": 1304,
+  "duplicate_responses": 1207,
+  "changed_instruments": 3284,
+  "errors": 1,
   "rate_limits": 0,
-  "finished_at_utc": "2026-10-22T19:51:33.759796+00:00",
-  "requests": 1501,
-  "final_interval_seconds": 2.0
+  "finished_at_utc": "2026-10-22T20:15:40.435695+00:00",
+  "requests": 1305,
+  "final_interval_seconds": 60
 }
