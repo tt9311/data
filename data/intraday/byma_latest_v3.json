@@ -1,16 +1,16 @@
 {
   "schema_version": 3,
-  "session_id": "63175656-a4f1-4811-bb5b-4df49f86c3ab",
+  "session_id": "7ba21bab-2b00-4935-bcf0-2e90d8c7f951",
   "panels": {
     "options": {
       "schema_version": 3,
-      "session_id": "63175656-a4f1-4811-bb5b-4df49f86c3ab",
-      "response_id": "b89d0c11-0bce-417b-8591-1b8ff00771aa",
+      "session_id": "7ba21bab-2b00-4935-bcf0-2e90d8c7f951",
+      "response_id": "599228aa-ccd6-4365-9733-9167f30ebd8b",
       "panel": "options",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-22T20:40:41.702328+00:00",
-      "received_at_utc": "2026-10-22T20:40:42.023696+00:00",
+      "request_started_at_utc": "2026-10-22T20:59:59.846408+00:00",
+      "received_at_utc": "2026-10-22T21:00:00.203355+00:00",
       "records": [
         {
           "tradeVolume": 414.0,
@@ -13257,13 +13257,13 @@
     },
     "leading-equity": {
       "schema_version": 3,
-      "session_id": "63175656-a4f1-4811-bb5b-4df49f86c3ab",
-      "response_id": "e06a95a1-66a8-47c5-8efc-04c65db0070f",
+      "session_id": "7ba21bab-2b00-4935-bcf0-2e90d8c7f951",
+      "response_id": "ce34cbed-a58c-4c7c-a4bb-42c6ec4cdb85",
       "panel": "leading-equity",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-22T20:40:42.702411+00:00",
-      "received_at_utc": "2026-10-22T20:40:42.863969+00:00",
+      "request_started_at_utc": "2026-10-22T20:59:58.846319+00:00",
+      "received_at_utc": "2026-10-22T20:59:59.025725+00:00",
       "records": [
         {
           "tradeVolume": 85209,
@@ -14447,13 +14447,13 @@
     },
     "general-equity": {
       "schema_version": 3,
-      "session_id": "63175656-a4f1-4811-bb5b-4df49f86c3ab",
-      "response_id": "24228c26-febc-4a60-98be-3b5adabe036c",
+      "session_id": "7ba21bab-2b00-4935-bcf0-2e90d8c7f951",
+      "response_id": "6ae876cc-f5b8-47b6-a83c-f2cd12020539",
       "panel": "general-equity",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-22T20:40:43.702504+00:00",
-      "received_at_utc": "2026-10-22T20:40:44.026999+00:00",
+      "request_started_at_utc": "2026-10-22T20:59:50.845567+00:00",
+      "received_at_utc": "2026-10-22T20:59:51.244350+00:00",
       "records": [
         {
           "tradeVolume": 21966,
@@ -14707,13 +14707,13 @@
     },
     "cedears": {
       "schema_version": 3,
-      "session_id": "63175656-a4f1-4811-bb5b-4df49f86c3ab",
-      "response_id": "a381a3b2-ed37-4247-846e-c36e5d59e661",
+      "session_id": "7ba21bab-2b00-4935-bcf0-2e90d8c7f951",
+      "response_id": "764bc815-658a-4ca0-b9cb-13a3d18e89aa",
       "panel": "cedears",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-22T20:39:53.697117+00:00",
-      "received_at_utc": "2026-10-22T20:39:54.338794+00:00",
+      "request_started_at_utc": "2026-10-22T20:59:43.844922+00:00",
+      "received_at_utc": "2026-10-22T20:59:44.564168+00:00",
       "records": [
         {
           "tradeVolume": 14749.0,
