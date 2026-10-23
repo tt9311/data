@@ -1,16 +1,16 @@
 {
   "schema_version": 3,
-  "session_id": "06905768-c59f-4c3f-9c5a-962f24dd69e3",
+  "session_id": "f826eeac-ce57-4e16-8275-ce0f23408c4e",
   "panels": {
     "options": {
       "schema_version": 3,
-      "session_id": "06905768-c59f-4c3f-9c5a-962f24dd69e3",
-      "response_id": "7a6ac410-df32-4959-9784-c74abc948d61",
+      "session_id": "f826eeac-ce57-4e16-8275-ce0f23408c4e",
+      "response_id": "7fb0cf4f-c386-4754-8dbd-414ddad59fd0",
       "panel": "options",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-23T20:28:15.297787+00:00",
-      "received_at_utc": "2026-10-23T20:28:15.578791+00:00",
+      "request_started_at_utc": "2026-10-23T20:53:21.399408+00:00",
+      "received_at_utc": "2026-10-23T20:53:21.679690+00:00",
       "records": [
         {
           "tradeVolume": 194.0,
@@ -7611,7 +7611,7 @@
           "securityType": "OPT",
           "closingPrice": 855.752,
           "settlementPrice": 901.504,
-          "quantityBid": 2.0
+          "quantityBid": 1.0
         },
         {
           "tradeVolume": 1.0,
@@ -13720,13 +13720,13 @@
     },
     "leading-equity": {
       "schema_version": 3,
-      "session_id": "06905768-c59f-4c3f-9c5a-962f24dd69e3",
-      "response_id": "b6a6ee0c-c59d-44f5-a627-144fab4fc060",
+      "session_id": "f826eeac-ce57-4e16-8275-ce0f23408c4e",
+      "response_id": "990a0db5-de7d-479a-afad-a3cd9c30c639",
       "panel": "leading-equity",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-23T20:28:16.297884+00:00",
-      "received_at_utc": "2026-10-23T20:28:16.439413+00:00",
+      "request_started_at_utc": "2026-10-23T20:53:20.399264+00:00",
+      "received_at_utc": "2026-10-23T20:53:20.540345+00:00",
       "records": [
         {
           "tradeVolume": 104178,
@@ -14756,7 +14756,7 @@
           "symbol": "TXAR",
           "imbalance": 0.006500000000000001,
           "previousSettlementPrice": 769,
-          "offerPrice": 774,
+          "offerPrice": 775,
           "openInterest": 0,
           "vwap": 772.353682,
           "description": "",
@@ -14767,7 +14767,7 @@
           "securitySubType": "M",
           "previousClosingPrice": 769,
           "settlementType": "2",
-          "quantityOffer": 976,
+          "quantityOffer": 3155,
           "tradingHighPrice": 782.5,
           "denominationCcy": "ARS",
           "bidPrice": 770,
@@ -14910,13 +14910,13 @@
     },
     "general-equity": {
       "schema_version": 3,
-      "session_id": "06905768-c59f-4c3f-9c5a-962f24dd69e3",
-      "response_id": "fc70aaae-06dc-4d1f-945d-46ef9575d133",
+      "session_id": "f826eeac-ce57-4e16-8275-ce0f23408c4e",
+      "response_id": "2a9616dc-85d9-46a6-a602-13465416754a",
       "panel": "general-equity",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-23T20:28:17.297969+00:00",
-      "received_at_utc": "2026-10-23T20:28:17.578888+00:00",
+      "request_started_at_utc": "2026-10-23T20:52:52.395895+00:00",
+      "received_at_utc": "2026-10-23T20:52:52.676784+00:00",
       "records": [
         {
           "tradeVolume": 21288,
@@ -15169,13 +15169,13 @@
     },
     "cedears": {
       "schema_version": 3,
-      "session_id": "06905768-c59f-4c3f-9c5a-962f24dd69e3",
-      "response_id": "9f93fed3-1b49-4dcf-bd3c-a43e5701b6ee",
+      "session_id": "f826eeac-ce57-4e16-8275-ce0f23408c4e",
+      "response_id": "085dd6d6-7e67-4a18-b72a-b98810c4119c",
       "panel": "cedears",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-23T20:27:27.292307+00:00",
-      "received_at_utc": "2026-10-23T20:27:27.848240+00:00",
+      "request_started_at_utc": "2026-10-23T20:52:49.395598+00:00",
+      "received_at_utc": "2026-10-23T20:52:49.954265+00:00",
       "records": [
         {
           "tradeVolume": 19056.0,
