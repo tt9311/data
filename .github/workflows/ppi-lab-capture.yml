@@ -1,0 +1,66 @@
+name: Capture PPI and analyze
+on:
+  workflow_dispatch:
+    inputs:
+      seconds:
+        description: 'Duración en segundos, entre 60 y 3600'
+        default: '600'
+        required: true
+  schedule:
+    - cron: '17 17 * * 1-5'
+defaults:
+  run:
+    working-directory: ppi-market-data-lab
+permissions:
+  contents: read
+concurrency:
+  group: ppi-capture
+  cancel-in-progress: false
+jobs:
+  capture:
+    # La captura programada se activa con la variable PPI_LAB_CAPTURE_ENABLED=true.
+    # La captura y sus artefactos se limitan a un repositorio privado.
+    if: github.event.repository.private == true && (github.event_name == 'workflow_dispatch' || vars.PPI_LAB_CAPTURE_ENABLED == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: ppi-market-data-lab/requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Capture market data
+        env:
+          PPI_PUBLIC_KEY: ${{ secrets.PPI_PUBLIC_KEY }}
+          PPI_PRIVATE_KEY: ${{ secrets.PPI_PRIVATE_KEY }}
+          CAPTURE_SECONDS: ${{ inputs.seconds || '600' }}
+        shell: python
+        run: |
+          import os, subprocess, sys
+          duration = int(os.environ['CAPTURE_SECONDS'])
+          if not 60 <= duration <= 3600:
+              raise SystemExit('Duración fuera de rango')
+          subprocess.run([sys.executable, 'capture.py', '--seconds', str(duration), '--require-events'], check=True)
+      - name: Data quality report
+        if: always()
+        run: python analyze.py --output reports/quality.json
+      - name: Quote markouts at several assumed delays
+        if: always()
+        run: python replay.py --output reports/markouts.json
+      - name: Export captured events
+        if: always()
+        run: python export.py
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: ppi-data-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ppi-market-data-lab/data/*.sqlite
+            ppi-market-data-lab/data/*.jsonl
+            ppi-market-data-lab/reports/*.json
+          retention-days: 7
+          if-no-files-found: warn
