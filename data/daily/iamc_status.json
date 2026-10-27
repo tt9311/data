@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-23T21:59:20.602402-03:00",
+  "checked_at": "2026-10-26T22:36:05.877831-03:00",
   "status": "source_stale",
   "source_index_url": "https://www.iamc.com.ar/informediario/",
   "source_latest_report": "2026-10-05",
   "dataset_latest_report": "2026-10-05",
-  "dataset_age_days": 18,
+  "dataset_age_days": 21,
   "fresh": false
 }
