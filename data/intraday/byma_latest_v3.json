@@ -1,16 +1,16 @@
 {
   "schema_version": 3,
-  "session_id": "1e948a86-7048-4b8d-9779-762770ce547d",
+  "session_id": "deb041ae-e23b-4ad0-8015-a66aa33e6e0c",
   "panels": {
     "options": {
       "schema_version": 3,
-      "session_id": "1e948a86-7048-4b8d-9779-762770ce547d",
-      "response_id": "7ffb9fb9-5861-4120-8371-fe91c16de209",
+      "session_id": "deb041ae-e23b-4ad0-8015-a66aa33e6e0c",
+      "response_id": "4756f455-5cd8-40e9-8a43-72bb2fb42e91",
       "panel": "options",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-29T20:31:55.187968+00:00",
-      "received_at_utc": "2026-10-29T20:31:55.501826+00:00",
+      "request_started_at_utc": "2026-10-29T20:56:58.125893+00:00",
+      "received_at_utc": "2026-10-29T20:56:58.438656+00:00",
       "records": [
         {
           "tradeVolume": 286.0,
@@ -14891,13 +14891,13 @@
     },
     "leading-equity": {
       "schema_version": 3,
-      "session_id": "1e948a86-7048-4b8d-9779-762770ce547d",
-      "response_id": "ac8107ff-c15e-4a23-9190-2623f070ec08",
+      "session_id": "deb041ae-e23b-4ad0-8015-a66aa33e6e0c",
+      "response_id": "a8f61af8-ecdc-496c-a0bf-0d0eff7835bf",
       "panel": "leading-equity",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-29T20:31:56.188054+00:00",
-      "received_at_utc": "2026-10-29T20:31:56.353022+00:00",
+      "request_started_at_utc": "2026-10-29T20:56:59.126035+00:00",
+      "received_at_utc": "2026-10-29T20:56:59.287721+00:00",
       "records": [
         {
           "tradeVolume": 64267,
@@ -15827,7 +15827,7 @@
           "securityType": "CS",
           "closingPrice": 8285,
           "settlementPrice": 8300,
-          "quantityBid": 225
+          "quantityBid": 205
         },
         {
           "tradeVolume": 21051,
@@ -16081,13 +16081,13 @@
     },
     "general-equity": {
       "schema_version": 3,
-      "session_id": "1e948a86-7048-4b8d-9779-762770ce547d",
-      "response_id": "b22e497c-4094-4170-86ee-c029b1e3ffef",
+      "session_id": "deb041ae-e23b-4ad0-8015-a66aa33e6e0c",
+      "response_id": "bbfb2814-c22a-4ccf-90aa-d5b99ed2d8eb",
       "panel": "general-equity",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-29T20:31:57.188170+00:00",
-      "received_at_utc": "2026-10-29T20:31:57.510739+00:00",
+      "request_started_at_utc": "2026-10-29T20:57:00.126164+00:00",
+      "received_at_utc": "2026-10-29T20:57:00.444995+00:00",
       "records": [
         {
           "tradeVolume": 136025,
@@ -16341,13 +16341,13 @@
     },
     "cedears": {
       "schema_version": 3,
-      "session_id": "1e948a86-7048-4b8d-9779-762770ce547d",
-      "response_id": "ad1c33ba-37f4-4f9e-a666-1d4d9b9cfe19",
+      "session_id": "deb041ae-e23b-4ad0-8015-a66aa33e6e0c",
+      "response_id": "466722a8-b606-4e4b-9a32-f9d092d4187a",
       "panel": "cedears",
       "source": "BYMADATA public delayed snapshot",
       "nominal_delay_minutes": 20,
-      "request_started_at_utc": "2026-10-29T20:31:07.182266+00:00",
-      "received_at_utc": "2026-10-29T20:31:07.809671+00:00",
+      "request_started_at_utc": "2026-10-29T20:56:10.118839+00:00",
+      "received_at_utc": "2026-10-29T20:56:10.784555+00:00",
       "records": [
         {
           "tradeVolume": 16202.0,
