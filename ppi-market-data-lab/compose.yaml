@@ -1,0 +1,24 @@
+services:
+  collector:
+    build: .
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 40s
+    environment:
+      PPI_PUBLIC_KEY: ${PPI_PUBLIC_KEY:?Configurar PPI_PUBLIC_KEY}
+      PPI_PRIVATE_KEY: ${PPI_PRIVATE_KEY:?Configurar PPI_PRIVATE_KEY}
+    volumes:
+      - market-data:/data
+  api:
+    build: .
+    command: ["python", "serve.py", "--host", "0.0.0.0", "--port", "8766"]
+    restart: unless-stopped
+    init: true
+    environment:
+      API_TOKEN: ${API_TOKEN:?Configurar API_TOKEN}
+    ports:
+      - "127.0.0.1:8766:8766"
+    volumes:
+      - market-data:/data
+volumes:
+  market-data:
