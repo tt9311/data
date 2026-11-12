@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+data
+reports
+.venv
+.python-packages
+__pycache__
+*.sqlite*
+*.jsonl
+*.zip
+.test-data
+.publish
